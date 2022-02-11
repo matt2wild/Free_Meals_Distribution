@@ -1,0 +1,33 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Used to place a simple meal count order to be displayed at a packing station",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt2wild/Free_Meals_Disribution.git"
+  },
+  "keywords": [
+    "Node",
+    "js",
+    "meals",
+    "table"
+  ],
+  "author": "Matt Wild",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt2wild/Free_Meals_Disribution/issues"
+  },
+  "homepage": "https://github.com/matt2wild/Free_Meals_Disribution#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "express": "^4.17.2",
+    "http-server": "^14.1.0",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8"
+  }
+}
